@@ -2,7 +2,7 @@ from emailverifier import Client
 from emailverifier import exceptions
 
 def checkEmail(emailAddr):
-    client = Client('at_LMffvKUyF0nylqGb9pPTGzpNWMe4B')
+    client = Client('you gotta be crapping me')
     try:
         data = client.get(emailAddr)
         # print("Email address: " + data.email_address)
